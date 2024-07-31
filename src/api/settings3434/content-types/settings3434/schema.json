@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings34343",
+  "info": {
+    "singularName": "settings3434",
+    "pluralName": "settings34343",
+    "displayName": "settings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blogName": {
+      "type": "string",
+      "required": true
+    },
+    "blogDescription": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "link": {
+      "displayName": "menuLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu-link",
+      "required": true,
+      "max": 2048
+    },
+    "text": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}
